@@ -1,0 +1,25 @@
+[
+    {
+        "correlation_key": "\"abuse@ripe.net\",",
+        "related_ips": [
+            "46.151.182.230",
+            "5.187.35.21",
+            "45.148.10.121",
+            "80.94.92.182"
+        ]
+    },
+    {
+        "correlation_key": "\"'dmzhostabuse@gmail.com\",",
+        "related_ips": [
+            "45.148.10.121",
+            "80.94.92.182"
+        ]
+    },
+    {
+        "correlation_key": "\"dmzhostabuse@gmail.com\"",
+        "related_ips": [
+            "45.148.10.121",
+            "80.94.92.182"
+        ]
+    }
+]

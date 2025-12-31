@@ -1,0 +1,59 @@
+[
+    {
+        "correlation_key": "\"abuse@ripe.net\",",
+        "related_ips": [
+            "46.151.182.230",
+            "5.187.35.21",
+            "45.148.10.121",
+            "80.94.92.182"
+        ],
+        "mitre_mapping": [
+            {
+                "tactic": "Command and Control",
+                "technique": "Application Layer Protocol (T1071)"
+            },
+            {
+                "tactic": "Lateral Movement",
+                "technique": "Remote Services (T1021)"
+            },
+            {
+                "tactic": "Credential Access",
+                "technique": "Unsecured Credentials (T1552)"
+            }
+        ]
+    },
+    {
+        "correlation_key": "\"'dmzhostabuse@gmail.com\",",
+        "related_ips": [
+            "45.148.10.121",
+            "80.94.92.182"
+        ],
+        "mitre_mapping": [
+            {
+                "tactic": "Command and Control",
+                "technique": "Application Layer Protocol (T1071)"
+            },
+            {
+                "tactic": "Lateral Movement",
+                "technique": "Remote Services (T1021)"
+            }
+        ]
+    },
+    {
+        "correlation_key": "\"dmzhostabuse@gmail.com\"",
+        "related_ips": [
+            "45.148.10.121",
+            "80.94.92.182"
+        ],
+        "mitre_mapping": [
+            {
+                "tactic": "Command and Control",
+                "technique": "Application Layer Protocol (T1071)"
+            },
+            {
+                "tactic": "Lateral Movement",
+                "technique": "Remote Services (T1021)"
+            }
+        ]
+    }
+]
